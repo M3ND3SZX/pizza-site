@@ -13,22 +13,22 @@ a{
 }
 
 body{
+    
     background-color: #ffcc80;
-    border: 5px #5a0203 ;
-    height: 100vh;
-    width: 100vw;
+    box-sizing: border-box;
+    height: 50vh;
+    width: 50vw;
+
 }
 
 header{
     display: flex;
     justify-content: flex;
     align-items: center;
-    margin-top: 12px;
-    margin-left: 45px;
-    margin-right: 45px;
     height: 90px;
     position: relative;
     background-color: aqua;
+    width: 100vw;
    
     
 }
@@ -38,6 +38,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     cursor: default;
+    margin-left: 45px;
 }
 
 .nav{
@@ -95,5 +96,12 @@ li:hover{
 h3{
     color:#5A0203;
     font-family: 'Montserrat', sans-serif;
+}
+
+.triangulo img{
+    display: flex;
+    justify-content: ;
+    width: 1277px;
+    height: 667;
 }
 
