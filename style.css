@@ -12,16 +12,12 @@ a{
     text-decoration: none;
 }
 
-@media only screen and (max-device-width: 900px) {
-    /* .menu { width:100%; } */}
     
 body{
     
     background-color: #ffcc80;
-    box-sizing: border-box;
     height: 100%;
     width: 100%;
-
 }
 
 header{
@@ -108,9 +104,13 @@ font-family: 'Montserrat', sans-serif;
 justify-content: flex-end;
 left: 780px;
 }
-
 .login h2{
-    font-size:16px;
+    font-size:1rem;
+}
+.login:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #fff;
 }
 
 
@@ -125,5 +125,43 @@ left: 780px;
     top: 2px;
 }
 
+.lupa:hover{
+    cursor: pointer;
+}
 
+main{
+    width: 100%;
+    bottom: 0%;
+}
 
+.back img{
+   padding-bottom: 0%;
+   height: 560px;
+   width: 100%;
+}
+ 
+.explore{
+    height: 45px;
+    width: 140px;
+    background-color: #ec9440; 
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Montserrat', sans-serif; 
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.reserve{
+    display: flex;
+    height: 45px;
+    width: 140px;
+    background-color: #5A0203;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family:'Montserrat', sans-serif; 
+     color: #ffffff;
+
+}  
