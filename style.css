@@ -12,12 +12,15 @@ a{
     text-decoration: none;
 }
 
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */}
+    
 body{
     
     background-color: #ffcc80;
     box-sizing: border-box;
-    height: 50vh;
-    width: 50vw;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -26,19 +29,19 @@ header{
     justify-content: flex;
     align-items: center;
     height: 90px;
-    position: relative;
-    background-color: aqua;
     width: 100vw;
+    margin-top: 12px;
    
     
 }
 
 h1{
+    position: relative;
     color: #5a0203;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     cursor: default;
-    margin-left: 45px;
+    margin-left: 30px;
 }
 
 .nav{
@@ -46,7 +49,7 @@ h1{
     background-color: #ec9440;
     width: 566px;
     height: 90px;
-    left: 100px;
+    left: 0px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -71,7 +74,7 @@ li:hover{
 .nav-2{
     height: 50px;
     width: 110px;
-    left: 1110px;
+    left: 1105px;
     background-color: #ec9440;
     border-radius: 50px;
     color: #ffffff;
@@ -98,13 +101,23 @@ h3{
     font-family: 'Montserrat', sans-serif;
 }
 
-.login > h2{
+.login{
 position: relative;
 font-family: 'Montserrat', sans-serif;
 justify-content: flex-end;
-right: 12px;
+left: 800px;
 }
 
+.lupa img{
+    width: 24px;
+    height: 21px;
+}
+
+.lupa{
+    left: 790px;
+    position: relative;
+    top: 2px;
+}
 
 
 
